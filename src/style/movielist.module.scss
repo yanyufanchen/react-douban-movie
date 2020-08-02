@@ -1,0 +1,53 @@
+// 电影列表
+.example {
+    text-align: center;
+    // background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 0.2rem;
+    padding: 0.3rem 0.5rem;
+    margin: 2px 0;
+  }
+
+  .mlist {
+    width: 100%;
+      // margin: 0.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      // height: 100%;
+      // display: inline-block;
+    //   justify-content: space-between;
+    .mibox {
+      box-sizing: border-box;
+      width: 20%;
+      padding: 0.1rem;
+    }
+      .mitem {
+        width: 100%;
+          // margin: 10px 18px;
+          &:hover {
+              transform: scale(1.03);
+              box-shadow: 0 0 0.1rem #999;
+          }
+          img {
+            // height: 220px!important;
+          }
+          
+          p {
+              margin-bottom: 0px;
+          }
+          
+      }
+      
+  }
+  .rate {
+    font-size: 14px!important;
+    margin-right: 0.01rem!important;
+  }
+  // 分页
+  .fenye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.3rem;
+    // margin-bottom: 20px;
+  }

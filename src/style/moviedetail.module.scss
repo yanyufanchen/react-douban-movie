@@ -1,0 +1,50 @@
+.example {
+    text-align: center;
+    // background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    margin: 2px 0;
+  }
+.detail {
+    padding: 10px;
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        .button {
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 0 10px;
+            height: 30px;
+            background-color: #1890FF;
+            .icon {
+
+            }
+            span {
+                line-height: 30px;
+                font-size: 14px;
+                color: #fff;
+            }
+        }
+    }
+    .centent {
+        .centent_header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title {
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            img {
+                width: 200px;
+            }
+        }
+        .synopsis {
+            h3 {
+                margin-top: 20px;
+            }
+        }
+    }
+}
